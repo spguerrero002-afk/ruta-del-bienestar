@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0865ce">
+  <meta name="description" content="Ruta de Bienestar, prototipo académico de información y seguridad para micros y combis.">
+  <title>Ruta del Bienestar | Tu viaje informado</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#inicio" class="brand" data-view="inicio"><span class="brand-mark" aria-hidden="true">🚌</span><span>Ruta de <strong>Bienestar</strong></span></a>
+      <span class="header-tag">PROTOTIPO EBC</span>
+    </div>
+  </header>
+  <main class="wrap main">
+    <div id="app" aria-live="polite"></div>
+  </main>
+  <nav class="bottom-nav" aria-label="Menú principal">
+    <div class="nav-inner wrap">
+      <button class="nav-link active" data-view="inicio"><span class="nav-icon">⌂</span>Inicio</button>
+      <button class="nav-link" data-view="rutas"><span class="nav-icon">➜</span>Rutas</button>
+      <button class="nav-link" data-view="paradas"><span class="nav-icon">⌖</span>Paradas</button>
+      <button class="nav-link" data-view="seguridad"><span class="nav-icon">♢</span>Seguridad</button>
+      <button class="nav-link" data-view="favoritos"><span class="nav-icon">♡</span>Favoritos</button>
+    </div>
+  </nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+RUTA DEL BIENESTAR — PROTOTIPO ACADÉMICO EBC
+
+ABRIR EN VISUAL STUDIO CODE
+1. Descomprime el ZIP.
+2. Abre Visual Studio Code > Archivo > Abrir carpeta > Ruta_del_Bienestar.
+3. Abre index.html con la extensión Live Server (clic derecho > Open with Live Server).
+   También funciona abriendo index.html con doble clic, excepto que el QR de ejemplo
+   apunta a http://127.0.0.1:5500/index.html#parada-hidalgo.
+
+ESTRUCTURA
+index.html          Página principal
+css/style.css       Diseño adaptable de todas las secciones
+js/app.js           Navegación, búsqueda, detalle, favoritos y reportes
+assets/qr_demo.png  QR ilustrativo a un enlace local de Live Server
+
+FUNCIONES
+Inicio, Rutas (buscar), Detalles y paradas, Paradas (buscar),
+Seguridad, Recomendaciones, Reportar incidente, Historial y filtrado,
+Favoritos persistentes, QR de prueba.
+
+AVISO
+Todas las rutas, paradas y estimaciones son inventadas para demostrar
+la experiencia de usuario y NO deben usarse en traslados reales.
+Los reportes se almacenan solo en el navegador (localStorage): NO se
+comparten, verifican ni envían a autoridades. El 911 es para emergencias.
+Sin dependencias externas. No requiere Bootstrap, React, Node ni servidor de datos.
+El QR contiene la dirección local de Live Server, así que solo funcionará
+si se abre desde la misma computadora en ese puerto.
